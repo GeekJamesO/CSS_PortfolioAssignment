@@ -1,0 +1,64 @@
+* {
+
+}
+
+.Wrapper {
+  background-color: purple;
+  width: 970px;
+}
+
+.paragraphHeader {
+  background-color: grey;
+  color white;
+}
+.paragraphHeader2 {
+  background-color: grey;
+  color white;
+}
+.header {
+  background-color: red;
+  display:block;
+}
+h1 {
+  display:inline-block;
+}
+.ShadowsAndTheInternet
+{
+  display:inline-block;
+  width:40%;
+  background-color: #11bd00;
+}
+.Photo {
+  display:inline-block;
+  width:40%;
+  background-color: orange;
+}
+
+.AboutMe {
+  display:inline-block;
+  width:58%;
+  background-color: yellow;
+}
+
+.jobcard {
+    display:inline-block;
+    width:33%;
+    vertical-align: top;
+}
+
+.LaMode {
+  background-color: green;
+}
+
+.FamilyContacts {
+  background-color: blue;
+}
+
+.fiveEleven {
+  background-color: pink;
+}
+
+.footer {
+  background-color: brown;
+  display: block;
+}

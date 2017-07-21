@@ -1,103 +1,163 @@
-* {
-  padding: 0;
-  margin: 0;
-  outline: 2px dashed tan;
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 2px dashed tan;
 }
 
-.Wrapper {
-  /*background-color: purple;*/
-  width: 970px;
-  height: 1024px;
-  padding:20px;
-  background: #6f5964;
-  background: -moz-radial-gradient(center, ellipse cover,  #6f5964 0%, #1a0a05 100%);
-  background: -webkit-radial-gradient(center, ellipse cover,  #6f5964 0%,#1a0a05 100%);
-  background: radial-gradient(ellipse at center,  #6f5964 0%,#1a0a05 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f5964', endColorstr='#1a0a05',GradientType=1 );
+.Wrapper
+{
+    /*background-color: purple;*/
+    width: 970px;
+    height: 1024px;
+    padding: 20px;
+
+    background: #6f5964;
+    background:    -moz-radial-gradient(center, ellipse cover,  #6f5964 0%, #1a0a05 100%);
+    background: -webkit-radial-gradient(center, ellipse cover,  #6f5964 0%,#1a0a05 100%);
+    background:         radial-gradient(ellipse at center,  #6f5964 0%,#1a0a05 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f5964', endColorstr='#1a0a05',GradientType=1 );
 }
 
-.paragraphHeader {
-  background-color: grey;
-  color: white;
+.paragraphHeader
+{
+    color: white;
+    background-color: grey;
 }
-.paragraphHeader2 {
-  background-color: grey;
-  color: white;
+.paragraphHeader2
+{
+    color: white;
+    background-color: grey;
 }
-.header {
-  background-color: white;
-  display:block;
-  width:100%
-}
-h1 {
-  display:inline-block;
-  vertical-align: middle;
-  font-family: "Comic Sans MS", cursive, sans-serif
+.header
+{
+    display: block;
 
+    width: 100%;
+
+    background-color: white;
+}
+h1
+{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+    display: inline-block;
+
+    vertical-align: middle;
 }
 .ShadowsAndTheInternet
 {
-  display:inline-block;
-  padding: 24px;
-  vertical-align: middle;
-  margin:0 0 0 370px;
-  font-size: x-large;
-}
-.myPhoto {
-  display:inline-block;
-  width:373px;
-  border:10px solid grey;
+    font-size: x-large;
 
-}
+    display: inline-block;
 
-.AboutMe {
-  display:inline-block;
-  width: 500px;
-  height: 264px;
-  margin-left: 14px;
-  background-color: #eee7ee;
-  vertical-align: top;
+    margin: 0 0 0 370px;
+    padding: 24px;
+
+    vertical-align: middle;
+}
+.myPhoto
+{
+    display: inline-block;
+    width: 373px;
+    border: 10px solid grey;
 }
 
-.jobDeck {
-  width: 940px;
-}
-.jobcard {
-    display:inline-block;
-    width:300px;
+.AboutMe
+{
+    display: inline-block;
+
+    width: 500px;
+    height: 264px;
+    margin-left: 14px;
+
     vertical-align: top;
-    margin-right: 17px;
+
+    background-color: #eee7ee;
+}
+
+.jobDeck
+{
+    width: 940px;
+}
+.jobcard
+{
+    display: inline-block;
+
+    width: 300px;
     margin-top: 17px;
+    margin-right: 17px;
+
+    vertical-align: top;
 }
 
-.jobPhoto {
-    width:150px;
-    margin:9;
+.jobPhoto
+{
+    width: 280px;
+    margin: 8px;
 }
-.jobDescription {
-  height:150px;
-  margin:0;
+.jobDescription
+{
+    height: 150px;
+    margin: 0;
 }
-.jobTech {
-  height:150px;
-  margin:98;
+.jobTech
+{
+    height: 150px;
+    margin: 98px;
 }
-.techImg {
+.techImg
+{
+    display: inline-block;
 
+    width: 40px;
+    height: 40px;
+
+    vertical-align: top;
 }
-.LaMode {
-  background-color: #eee7ee;
+.ImmageList
+{
+    width: 2800px;
+}
+li
+{
+    display: inline-block;
+
+    margin: 8px;
+
+    list-style-type: none;
+}
+.LaMode
+{
+    background-color: #eee7ee;
 }
 
-.FamilyContacts {
-  background-color: #eee7ee;
+.FamilyContacts
+{
+    background-color: #eee7ee;
 }
 
-.fiveEleven {
-  background-color: #eee7ee;
+.fiveEleven
+{
+    background-color: #eee7ee;
 }
 
-.footer {
-  background-color: White;
-  display: block;
+.footer
+{
+    display: block;
+
+    padding: 17 200px;
+
+    background-color: White;
+}
+.SocialImg
+{
+    display: inline-block;
+
+    width: 15px;
+    height: 15px;
+    margin: 20 20 20 20;
+
+    vertical-align: top;
 }
